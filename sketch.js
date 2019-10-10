@@ -1,9 +1,9 @@
-var cenX, cenY; 
-var counter = 100;
-var Dist = 5; 
-var sign = 1; 
-var running = true;
-var button; 
+let cenX, cenY; 
+let counter = 100;
+let Dist = 5; 
+let sign = 1; 
+let running = true;
+let button; 
 
 function setup() {
 	createCanvas(600, 600);
