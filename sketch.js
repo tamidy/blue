@@ -1,6 +1,6 @@
 let cenX, cenY; 
 let counter = 100;
-let Dist = 5; 
+let dist = 5; 
 let sign = 1; 
 let running = true;
 let button; 
@@ -14,7 +14,7 @@ function setup() {
 	button = createButton("Pause"); 
 	button.position(20,20); 
 	button.size(60,20);
-	button.mousePressed(Pause); 
+	button.mousePressed(pause); 
 }
 
 function draw() {
@@ -23,7 +23,7 @@ function draw() {
 	//Only runs when the user does not push the pause button
 	//If not, the circles pause in their current place
 	if (running) { 
-		counter = counter + sign*Dist; 
+		counter = counter + sign*dist; 
 	}
 	
 	if (counter>width || counter<0) {
@@ -40,7 +40,7 @@ function draw() {
 	ellipse(counter, width-counter, 50, 50);	
 }
 
-function Pause() {
+function pause() {
 	running = !running;
 } 
 
