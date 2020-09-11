@@ -8,8 +8,10 @@ let button;
 function setup() {
 	createCanvas(600, 600);
 	background(0,0,0);
-	cenX = windowWidth/2; 
-	cenY = windowHeight/2;
+	cenX = width/2; 
+	cenY = height/2;
+	textAlign(CENTER);
+	noStroke();
 	
 	button = createButton("Pause"); 
 	button.position(20,20); 
@@ -19,6 +21,11 @@ function setup() {
 
 function draw() {
 	background(0,0,0);
+	
+	fill(255);
+	textSize(20);
+	text("Try to line up the circles perfectly!", cenX, 20);
+	
 	
 	//Only runs when the user does not push the pause button
 	//If not, the circles pause in their current place
