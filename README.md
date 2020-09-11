@@ -1,2 +1,2 @@
-# blue
-This repo contains my Blue sketch.
+# Blue
+This repo contains a p5.js sketch.
