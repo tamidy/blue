@@ -44,4 +44,4 @@ function pause() {
 	running = !running;
 } 
 
-//I used this website as a reference: https://www.reddit.com/r/javascript/comments/5mjcdh/is_there_a_way_to_pause_frames_in_p5js/
+//Reference: https://www.reddit.com/r/javascript/comments/5mjcdh/is_there_a_way_to_pause_frames_in_p5js/
