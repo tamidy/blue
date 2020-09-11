@@ -26,7 +26,6 @@ function draw() {
 	textSize(20);
 	text("Try to line up the circles perfectly!", cenX, 20);
 	
-	
 	//Only runs when the user does not push the pause button
 	//If not, the circles pause in their current place
 	if (running) { 
