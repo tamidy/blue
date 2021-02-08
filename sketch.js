@@ -11,7 +11,6 @@ function setup() {
 	cenX = width/2; 
 	cenY = height/2;
 	textAlign(CENTER);
-	noStroke();
 	
 	button = createButton("Pause"); 
 	button.position(20,20); 
