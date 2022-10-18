@@ -24,25 +24,25 @@ function setup() {
 	ellipseMode(CENTER);
 	
 	startButton = createButton("Start");
-	startButton.position((windowWidth/2)-45, 100);
+	startButton.position((width/2)-45, 100);
 	startButton.size(90, 50);
 	startButton.mousePressed(start);
 	
 	pauseButton = createButton("Instructions");
 	pauseButton.hide(); 
-	pauseButton.position((windowWidth/2)-45, windowHeight-100);
+	pauseButton.position((width/2)-45, height-100);
 	pauseButton.size(90, 50);
 	pauseButton.mousePressed(pause);	
 	
 	resumeButton = createButton("Resume");
 	resumeButton.hide(); 
-	resumeButton.position((windowWidth/2)-45, windowHeight-100);
+	resumeButton.position((width/2)-45, height-100);
 	resumeButton.size(90, 50);
 	resumeButton.mousePressed(resume);
 	
 	restartButton = createButton("Restart");
 	restartButton.hide(); 
-	restartButton.position((windowWidth/2)-45, windowHeight-100);
+	restartButton.position((width/2)-45, height-100);
 	restartButton.size(90, 50);
 	restartButton.mousePressed(restart);	
 	
